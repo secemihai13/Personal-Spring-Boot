@@ -10,4 +10,7 @@ public class PersonalSpringBootApplication {
         SpringApplication.run(PersonalSpringBootApplication.class, args);
     }
 
+    private String privateMethod() {
+        return "This is a private method";
+    }
 }
